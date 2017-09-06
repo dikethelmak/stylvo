@@ -1,0 +1,100 @@
+body{
+	text-align: auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 100%;
+	background-image: url('images/headerimage.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	margin: 0;
+}
+
+.boddy{
+	overflow: auto;
+	width: 60%;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.6);
+	text-align: center;
+}
+
+h1{
+	font-size: 50px;
+	font-weight: bolder;
+	padding: 5px;				
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #E8D411;
+}
+
+.center{
+	margin: auto;
+	text-align: center;
+}
+
+.input{
+	box-sizing: border-box;
+	width: 30%;
+	margin: auto;
+	padding: 15px;
+	border-radius: 2px;
+	border: none;
+}
+
+.button{
+	box-sizing: border-box;
+	margin: auto;
+	padding: 15px;
+	border-radius: 2px;
+	color:#fff;
+	font-size: 16px;
+	background-color: #E6A30A; 
+	border: none;
+}
+
+p{
+	font-size: 34px;
+	color: #B89B18;
+}
+
+
+@media screen and (min-width: 1200px) {
+	.boddy{
+		height: 90vh;
+		margin: 35px auto 20px auto;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.boddy{
+		height: 100vh;
+		margin: 20px auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.boddy{
+		margin: 20px auto;
+	}
+	.input{
+		width: 60%;
+		margin: 0 auto 10px auto;
+	}
+	.button{
+		display: block;
+		margin: 0 auto;
+	}
+
+}
+
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.countdown {
+	font-size: 70px;
+	color: #fff;
+	font-weight: bold;
+}
